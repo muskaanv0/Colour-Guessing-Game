@@ -1,0 +1,80 @@
+body{
+	background-color: #32292f;
+	/*#232323 ;*/
+	margin: 0;
+	font-family: "Montserrat" , "Avenir";
+
+}
+
+.square{
+	width: 30%;      /*  30% of the total pg*/
+	background: purple;
+	padding-bottom:  30%;
+	float: left;    /* taki 3 in arow aae*/
+	margin: 1.666%;
+	border-radius: 20%;
+	transition: background-color 0.6s;  /*time to fade away*/
+   
+    /*for making transition brower freiendly...*/
+    -webkit-transition :background-color 0.6s ;    /*for safari*/
+    -moz-transition : background-color 0.6s;       /*for firefox*/
+}
+
+.container{
+	width: 600px;
+	margin: 20px auto;  /*to center the container*/
+}
+
+h1{
+	color: white;
+	text-align: center;
+	margin: 0;
+	background-color: #3aafa9;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#stripe{
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+.selected{
+	color: white;
+	background-color: #3aafa9;
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+button{
+	border: none;
+	background-color: white;
+	text-transform: uppercase;
+	height: 100%;  /*to make button height equal to the stripe*/
+    color: #3aafa9;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: inherit;
+    outline: none;   /*for making outline when clicked null*/
+}
+
+#msg{
+	display: inline-block;
+	width: 20%;
+}
+
+/*for hower effect*/
+button:hover{
+	color: white;
+	background-color: #3aafa9;
+	transition: all 0.4s;
+
+	 -webkit-transition :background-color 0.4s ;    /*for safari*/
+    -moz-transition : background-color 0.4s;       /*for firefox*/
+}
